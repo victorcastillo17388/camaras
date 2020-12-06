@@ -1,0 +1,76 @@
+inurl :"VieserFrame ?Mode=" 
+intitle :"Live View / - AXIS" inurl :view/view.shtml 
+inurl :"MultiCameraFrame ?Mode=" 
+intitle :"WJ-NT104 Main" 
+intitle :"snc-rz30 home" Requiere plugin Active-X. 
+inurl :"ViewerFrame ?Mode=Motion" Requiere plugin Active-X. 
+inurl :LvAppl intitle :liveapplet 
+intitle :"Live View / - AXIS" Requiere plugin Active-X. 
+"Powered by webcamXP" 
+inurl :indexFrame.shtml "Axis Video Server" 
+"MOBOTIX M1" and "open menu" 
+intitle :flexwatch intext :"Copyright by Seyeon TECH Co" 
+
+MAS COMANDOS 
+
+* inurl:”CgiStart?page=”
+* inurl:/view.shtml
+* intitle:”Live View / – AXIS
+* inurl:view/view.shtml
+* inurl:ViewerFrame?Mode=
+* inurl:ViewerFrame?Mode=Refresh
+* inurl:axis-cgi/jpg
+* inurl:axis-cgi/mjpg (motion-JPEG) (disconnected)
+* inurl:view/indexFrame.shtml
+* inurl:view/index.shtml
+* inurl:view/view.shtml
+* liveapplet
+* intitle:”live view” intitle:axis
+* intitle:liveapplet
+* allintitle:”Network Camera NetworkCamera” (disconnected)
+* intitle:axis intitle:”video server”
+* intitle:liveapplet inurl:LvAppl
+* intitle:”EvoCam” inurl:”webcam.html”
+* intitle:”Live NetSnap Cam-Server feed”
+* intitle:”Live View / – AXIS”
+* intitle:”Live View / – AXIS 206M”
+* intitle:”Live View / – AXIS 206W”
+* intitle:”Live View / – AXIS 210?
+* inurl:indexFrame.shtml Axis
+* inurl:”MultiCameraFrame?Mode=Motion” (disconnected)
+* intitle:start inurl:cgistart
+* intitle:”WJ-NT104 Main Page”
+* intitle:snc-z20 inurl:home/
+* intitle:snc-cs3 inurl:home/
+* intitle:snc-rz30 inurl:home/
+* intitle:”sony network camera snc-p1?
+* intitle:”sony network camera snc-m1?
+* site:.viewnetcam.com -www.viewnetcam.com
+* intitle:”Toshiba Network Camera” user login
+* intitle:”netcam live image” (disconnected)
+* intitle:”i-Catcher Console – Web Monitor” 
+* inurl :indexFrame.shtml "Axis Video Server"
+* "MOBOTIX M1" and "open menu"
+* intitle :flexwatch intext :"Copyright by Seyeon TECH Co"
+* “my webcamXP server!”
+
+EJEMPLOS DE CAMARAS:
+
+http://jcsg-video2.sdsc.edu/view/view.shtml
+
+http://195.196.36.242/view/index.shtml
+
+http://www.kelhess.com/camera2/index.html?from_multicameraframe_index_html
+
+http://www.fisgonia.com/view/401
+
+http://208.42.203.54:8588/view/viewer_index.shtml?id=7196
+
+http://212.42.54.137:8008/view/index.shtml  (interesante)
+
+http://majorj.no-ip.org:8080/  (camaras de casa)
+
+http://84.76.104.82:8080/
+
+http://216.68.216.206:8080/home.html
+
